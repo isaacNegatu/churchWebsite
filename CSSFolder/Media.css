@@ -1,0 +1,245 @@
+@CHARSET "ISO-8859-1";
+#font3{
+	background:url(../Image/media13.png)no-repeat left top;
+	height:120px;
+	width:750px;
+	margin-left: auto;
+	margin-right: auto;
+	border-top:0px solid #7EB6FF;
+	border-bottom:0px solid #7EB6FF;
+	border-radius:20px;
+	-webkit-border-radius: 20px; 
+	-mos-border-radius:20px;
+	-ms-border-radius:20px;
+	border: 0px red solid; 
+	margin-bottom: 20px;
+	margin-top: 30px;
+	
+	
+}
+#MidiaTable{
+	border-bottom: 2px #3D8B37 solid; 
+	border-collapse: collapse;
+	width:90%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: white;
+	
+	
+}
+#td1{
+	width:10%;
+	height:30px;
+	text-align:center;
+	border: 0px red solid; 
+	
+}
+#td2{
+	width:35%;
+	height:30px;
+	text-align:left;
+	text-indent: 30px;
+	
+	
+}
+#td3{
+	width:40%;
+	height:30px;
+	text-align:left;
+	text-indent: 30px;
+	
+}
+#td4{
+	width:15%;
+	height:30px;
+	text-align:center;
+	border: 1px;
+	
+}
+#td5{
+	
+	height:30px;
+	color:#2F4F4F;
+	font-size:20px;
+	text-align:center;
+	
+}
+#td6{
+	
+	
+	
+	text-align:left;
+	text-indent: 30px;
+	
+}
+#td7{
+
+	height:30px;
+	text-align:left;
+	text-indent: 30px;
+	
+}
+#td8{
+	
+	height:30px;
+	text-align:center;
+	
+}
+#media_tr1{
+	height:50px;
+	background-color: rgba(58,125,151,0.7);
+	font-size: 25px;
+	color:#FFF;
+	
+}
+
+#tr2{
+	height:60px;
+	font-size: 20px;
+}
+#row3 {
+	
+	text-decoration: none;
+	width: 80%;
+	height:30px;
+	cursor:pointer;
+	background-color:rgba(58,125,151,0.4);
+	border: 0px solid green;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	font-family: Castellar;
+	font-weight: bold;
+	color:#FFF;
+	
+}
+#mediaAudio1{
+	background: linear-gradient(top, #4f7cb3 0%,  #ffffff 3%);
+	background: -moz-linear-gradient(top, #4f7cb3 0%,  #ffffff 3%);
+	background: -webkit-linear-gradient(top, #4f7cb3 0%,  #ffffff 3%);
+	background: -ms-linear-gradient(top, #4f7cb3 0%,  #ffffff 3% );
+	width: 730px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+	padding: 20px 0px;
+}
+#audioTable{
+	width: 540px;
+	height: 150px;
+	border: 1px solid #000;
+	margin-left: auto;
+	margin-right: auto;
+}
+#namediv{
+	text-align: center; 
+	width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+#hr_line1{
+	margin-left:auto;
+	margin-right:auto;
+	width: 90%;
+	height: 2px;
+	margin-bottom: 30px;
+	border: solid 1px #A6D785;
+	
+	background: linear-gradient(left, #004F00 20%,  #CCFFCC 60% );
+	background: -moz-linear-gradient(left, #004F00 20%,  #CCFFCC 60% );
+	background: -webkit-linear-gradient(left, #004F00 20%,  #CCFFCC 60% );
+	background: -ms-linear-gradient(left, #004F00 20%,  #CCFFCC 60%  );
+	
+}
+#divotion_main_text{
+	
+	width: 810px;
+	height: 100%;
+	
+
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:15px;
+		display:block;
+	vertical-align:middle;
+	clear: both;
+}
+/*-----------------------------------------------------prayer-----------------------------------------------------------*/
+
+#main_text_one{
+	background:url(Image/prayerRequestBG2.jpg)no-repeat left top;
+	width: 791px;
+	height: 800px;
+	float:left;
+	filter:alpha(opacity=20);
+	-moz-opacity:0.2;
+	-khtml-opacity:0.2;
+	opacity:0.2;
+}
+#main_text_two{
+
+	vertical-align: top;
+	padding-top: 50px;
+	padding-left: 150px;
+}
+h2{
+	margin-bottom: 30px;
+	margin-left: 40px;
+	
+	font-family: Baskerville Old Face, Colonna MT, Helvetica ;
+	font-size: 60px;
+	color:#474E69;
+}
+#prayer_form input,textarea{
+	padding: 5px;
+	margin: 5px;
+	border: 1px solid #A4A4A4;
+	width:250px;
+	color:#999999;
+	box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 4px;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 4px;
+	-moz-box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 4px;
+
+}
+#prayer_form textarea{
+	width:480px;
+	height:250px;
+	max-width:480px;
+	max-height: 290px;
+	line-height: 18px;
+}
+#prayer_form input:hover, textarea:hover,
+#prayer_form input:focus, textarea:focus{
+	border: 1px solid green;
+	box-shadow: rgba(0, 0, 0, 0.8) 0px 0px 4px;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.8) 0px 0px 4px;
+	-moz-box-shadow: rgba(0, 0, 0, 0.8) 0px 0px 4px;
+	
+}
+#prayer_form label
+{
+	float: left;
+	text-align: right;
+	width: 100px;
+	color:#474E69;
+	vertical-align: middle;
+	font-size: 16px; 
+	font-weight: bold; 
+	font-style: normal;
+	font-family:Agency FB;
+
+}
+#prayer_submit {
+	width:250px;
+	height: 40px;
+	font-size: 20px; 
+	font-family:Agency FB;
+	background-color: #474E69;
+	font-weight: bold; 
+	color:white;
+	border-radius: 7px;
+	-moz-border-radius: 7px;
+	-webkit-border-radius: 7px;
+	padd: 10px;
+}

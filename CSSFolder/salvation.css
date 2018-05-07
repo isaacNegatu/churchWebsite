@@ -1,0 +1,107 @@
+@CHARSET "ISO-8859-1";
+
+
+#salvation_table1{
+	padding:10px;
+	line-height: 1.8;
+	text-align: left;
+	padding-top: 40px;
+	padding-bottom:40px;
+	width:732px;
+	border: 0px solid green;
+	margin-left:auto;
+	margin-right:auto;
+	
+}
+#salvation_tr{
+	border: 1px solid green;
+	height: 20px;
+}
+#salvation_td1{
+	background:url(Image/cross11.jpg)no-repeat left top;
+	border: 0px solid green;
+	height: 40px;
+	width: 45px;
+}
+#salvation_td2{
+	border: 0px solid green;
+	height: 20px;
+	width: 712px;
+	padding-left: 40px;
+}
+#salvation_td3{
+	border: 0px solid green;
+	height: 20px;
+	width: 712px;
+	padding-left: 80px;
+	padding-right: 40px;
+}
+#sa_p{
+	font-size:18px;
+	text-align: left;
+	font-family: Andalus, Helvetica, sans-serif ;
+	color: #3a7d97;
+	font-style:italic;
+	font-weight:bold;
+}
+#sa_font1{
+	font-family: Andalus, Helvetica, sans-serif ;
+	font-size:18px;
+	color: black;
+}
+#sa_font2{
+	font-size:18px;
+	font-style:italic;
+	color: #3a7d97;
+	
+	
+}
+#salvationArticleOne{
+	width: 600px;
+	height:100%;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: Andalus, Helvetica, sans-serif ;
+	font-size:17px;
+}
+#salvationDiv{
+	width: 720px;
+	border: 1px solid #68838B;
+	background-color:#FFF;
+	
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 10px;
+	padding-right: 20px;
+	padding-top: 30px;
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+	border-radius:10px;
+	-webkit-border-radius: 20px; 
+	-mos-border-radius:10px;
+	-ms-border-radius:10px;
+	display:block;
+	vertical-align:middle;
+	clear: both;
+}
+#salvationTopDiv{
+	background:url(../Image/salvationOkfinal.png)no-repeat left top;
+	height:120px;
+}
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	

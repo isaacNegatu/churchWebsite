@@ -1,0 +1,150 @@
+
+/*-------------------------------------------------------Admin register------------------------------------------*/
+
+#choir_registration_div{
+	
+	width: 680px;
+	height: 100%;
+	margin-left:auto;
+	margin-right:auto;
+
+}
+
+#register label{
+	
+	float: left;
+	text-align: right;
+	width: 200px;
+	color:black;
+	vertical-align: middle;
+	font-size: 16px; 
+	font-weight: bold; 
+	font-style: normal;
+	font-family:Agency FB;
+	padding-right: 5px;
+}
+#textAreaMezmur{
+	margin-left: 70px;
+}
+#register span
+{
+	
+	color:red;	
+	font-size: 16px; 
+	font-weight: bold; 
+	font-style: normal;
+	font-family:Agency FB;
+	
+}
+p{
+	font-size:18px;
+	font-family:Century Schoolbook;
+	
+}
+#register input:hover, select:hover
+{
+	border: 1px solid green;
+	box-shadow: rgba(0, 0, 0, 0.8) 0px 0px 12px;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.8) 0px 0px 12px;
+	-moz-box-shadow: rgba(0, 0, 0, 0.8) 0px 0px 12px;
+	
+}
+.legend{
+	margin-left: 0px;
+	padding-left:15px;
+	padding-right:15px;
+	margin-top: 30px;
+	font-family:Agency FB;
+	font-size: 30px; 
+	color: #006700; 
+	font-weight: bold;
+	/*background-color:#CFFFF2;*/
+	background-color:rgba(0, 0, 0, 0.1);;
+	
+	border-radius:5px;
+	-webkit-border-radius:5px; 
+	-mos-border-radius:5px;
+	-ms-border-radius:5px;
+}
+#legend5{
+	margin: 30px;
+	font-size: 40px;
+}
+input[type="submit"].Resizable
+{
+    width: auto;
+}
+
+input[type="text"], input[type="password"]
+{
+    width: 200px;
+    height: 25px;
+    border: solid 1px #707070;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+input[type="submit"]
+{
+    background-color: #f7f3f7;
+    border: solid 1px #707070;
+    padding: 0px 8px 0px 8px;
+    margin: 5px 0 5px 0;
+    font-size: 100%;
+    height: 1.6em;
+    width:70px;
+}
+#lable2
+{
+	float: left;
+	text-align: right;
+	width: 100px;
+	color:black;
+	vertical-align: middle;
+	font-size: 16px; 
+	font-weight: bold; 
+	font-style: normal;
+	font-family:Agency FB;
+	
+	
+}
+#register textarea{
+	margin-left: 50px;
+}
+
+#ChoirRegisterSubmitDiv{
+	
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#ChoirSubmit{
+	width:680px;
+	height: 40px;
+	font-size: 16px; 
+	font-family:Agency FB;
+	/*background-color: #474E69;*/
+	background-color: rgba(25, 25, 112, 0.60);
+	color:white;
+	border-radius: 7px;
+	-moz-border-radius: 7px;
+	-webkit-border-radius: 7px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	margin-left: 0px;
+	cursor:pointer;	
+	border: 0px solid black;
+}
+#ChoirMezmurtable{
+	width:600px;
+}
+#errNotice{	
+	color:red;
+	padding-left:50px;	
+	font-size: 20px; 
+	font-weight: bold; 
+	font-style: normal;
+	font-family:Agency FB;
+	
+	
+}

@@ -1,0 +1,123 @@
+.Header
+{
+    color: #563FA1;
+   
+    margin-bottom: 0px;
+    font-size: 400%;
+    font-family: Colonna MT, Helvetica, sans-serif ;
+    text-align: center;
+    padding-top: 60px;
+    
+}
+.hr_line3{
+	margin-left:auto;
+	margin-right:auto;
+	width: 80%;
+	height: 1px;
+	margin-bottom: 30px;
+	border: solid 1px #A1563F;
+	background-color: #3EA055
+}
+.MainActionContainer
+{
+    padding: 5px 20px 5px 20px;
+    border: solid 1px  #005005;
+    
+    border-radius:15px;
+	-webkit-border-radius: 15px; 
+	-moz-border-radius:15px;
+	-ms-border-radius:15px;
+    
+    min-height: 150px;
+    margin-left:auto;
+	margin-right:auto;
+    width: 70%;
+}
+.MainActionContainer label{
+	
+	color:#01563F;
+	float: left;
+	text-align: right;
+	width: 180px;	
+	vertical-align: middle;
+	font-size: 16px; 
+	font-weight: bold; 
+	font-style: normal;
+	font-family:Agency FB;
+}
+
+.GroupXLargeMargin  { 
+	margin: 8px 0px 12px; 
+	font-family: Andalus;
+	font-size: 18px;
+	color:#563FA1;
+	}
+input[type="submit"].Resizable
+{
+    width: auto;
+   
+}
+.MainActionContainer input[type="text"]:hover,input[type="password"]:hover{
+	border: 1px solid green;
+	background-color:#BCED91;
+	box-shadow: rgba(0, 0, 0, 0.8) 0px 0px 2px;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.8) 0px 0px 2px;
+	-moz-box-shadow: rgba(0, 0, 0, 0.8) 0px 0px 2px;
+	
+}
+input[type ="submit"]
+{
+    background-color: #84BE6A;
+    border: solid 1px #707070;
+    padding: 0px 8px 0px 8px;
+    margin: 5px 0 5px 0;
+    font-size: 100%;
+    height: 1.6em;
+    width:170px;
+    margin-left:auto;
+	margin-right:auto;
+	cursor:pointer;
+}
+
+input[type="text"], input[type="password"]
+{
+    width: 220px;
+    height: 25px;
+    border: solid 1px #707070;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: #cce0cc;
+}
+#SignInChoir span
+{
+	
+	color:red;	
+	font-size: 16px; 
+	font-weight: bold; 
+	font-style: normal;
+	font-family:Agency FB;
+	
+}
+#prayer_table{
+	border: 0px solid red;
+	margin-left:auto;
+	margin-right:auto;
+	width:450px;
+	height:30px;
+	color:red;
+	border-radius:5px;
+	-webkit-border-radius:5px; 
+	-mos-border-radius:5px;
+	-ms-border-radius:5px;
+	box-shadow: red 0px 0px 12px;
+	-webkit-box-shadow: red 0px 0px 8px;
+	-moz-box-shadow: red 0px 0px 12px;
+	margin-bottom: 20px;
+	
+}
+#h6_one{
+	font-family:Agency FB;
+	font-size: 22px;	
+	color:red;
+	text-align: center;
+}

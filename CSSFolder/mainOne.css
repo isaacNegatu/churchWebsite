@@ -1,0 +1,557 @@
+@CHARSET "ISO-8859-1";
+
+#header1{	
+	margin-top: 0px;
+	width:732px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:30px;	
+	padding-bottom:0px;	
+	-webkit-border-radius: 20px; 
+	-moz-border-radius: 20px; 
+	border-radius: 20px;
+	padding-top:20px;
+	height:135px;
+}
+#header3{
+	padding-left:20px;
+	width:732px;
+	height: 120px;
+	position: absolute;
+	vertical-align: top;
+	padding-left:0px;
+	padding-top: 15px;
+	text-align:center;
+	border:1px solid black;
+	margin-left:auto;
+	margin-right:auto;
+}
+#main_text1{
+	width:732px;
+	font-size: 30px;
+	padding-top:0px;
+	font-family:AR BERKLEY, Helvetica, sans-serif ;
+	color: #298A08;
+	
+}
+#photo_div{
+	
+	width: 732px;
+	height: 400px;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+#defaultimage{
+	
+	border-radius:5px;
+	-webkit-border-radius:15px; 
+	-moz-border-radius:5px;
+	-ms-border-radius:5px;
+	border-left: 10px solid #eaeaea;
+	border-right: 10px solid #eaeaea;
+  	box-shadow: 1px 1px 5px rgba(0,0,0,0.7);
+   	border-bottom:24px solid #eaeaea;
+	border-top:24px solid #eaeaea;
+	
+}
+#article1{
+	
+	width:810px;
+	padding:0px;
+	margin-top:40px;
+	margin-bottom:0px;
+	
+}
+#article1_table{
+	width: 732px;
+	padding-bottom:20px;
+	margin-left:auto;
+	margin-right:auto;
+	
+}
+#foot1{
+	border-right:0px solid black;
+	width:244px;
+	margin:0px;
+	padding-right:14px;
+	line-height: 1.5;
+	vertical-align: top;
+	font-family: Nyala, Colonna MT, sans-serif ;
+		
+	}
+#foot2{
+	border:0px solid black;
+	width:244px;
+	padding-right:7px;
+	padding-left:7px;
+	line-height: 1.5;
+	vertical-align: top;
+	}
+#foot3{
+	border:0px solid black;
+	width:244px;
+	margin:0px;
+	padding-left:14px;	
+	line-height: 1.5;
+	vertical-align: top;
+	
+	}
+#main_p{
+	font-family:Century Schoolbook, Aparajita, Nyala ;
+	font-size: 18px;
+}
+.btn {       
+        cursor:pointer;
+		width:230px;
+		height:25px;
+		
+		color: white; 
+		background:url(../Image/greenBackGround.jpg)no-repeat left top;
+		border:0px solid blue;
+		border-radius:0px;
+		-webkit-border-radius:0px; 
+		-moz-border-radius:0px;
+		-ms-border-radius:0px;
+		
+    }
+    
+    /*----------------------------------------------welcome--------------------------------------------*/
+
+#main_text_mini_wrap{
+	width:720px;
+	height:100%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top:0px;
+	padding-top:10px;
+	padding-bottom:20px;
+	-webkit-border-radius: 0px 0px 10px 10px;
+	-moz-border-radius: 0px 0px 10px 10px;
+	-ms-border-radius: 0px 0px 10px 10px;
+	border-radius: 0px 0px 10px 10px;	
+}
+#main_txt_mini_div{
+	width: 640px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 0px;
+	
+}
+
+#TablePastors{
+	width: 702px;
+	margin-left:auto;
+	margin-right:auto;
+}
+#pastorImage1{
+	width: 100px;
+	height: 100px;
+	border: 1px;
+	padding-left: 20px;
+}
+#font4{
+	padding-left:20px;
+	font-size: 200px; 
+	color: #3a7d97; 
+	font-style: normal;
+	font-family: Parchment, Colonna MT, sans-serif ;
+	
+}
+#font44{
+	padding-left:20px;
+	font-size: 200px; 
+	color: #3a7d97; 
+	font-style: normal;
+	font-family: Parchment, Colonna MT, sans-serif ;
+	
+}
+#sttatementTopDiv{
+	background:url(../Image/FithStatment8.png)no-repeat left top;
+	height:100px;
+	width:700px;
+}
+#sttatementTopDiv1{
+	background:url(../Image/Act532.jpg)no-repeat left top;
+	height:115px;
+	border: 0px solid green;
+	text-align: center;
+
+}
+#text_div{
+	line-height: 2.0;
+	padding-top:10px;
+	width: 660px;
+	padding-left:0px;
+	padding-right:0px;
+	margin-left:auto;
+	margin-right:auto;
+}
+#font1{
+	text-indent: 5em;
+	font-size: 35px; 
+	color: #3a7d97; 
+	font-weight: bold; 
+	font-style: normal;
+	font-family:Kunstler Script;
+
+}
+
+#font2{
+	font-size: 20px; 
+	color: #3a7d97; 
+	font-weight: bold; 
+	font-style: normal;
+	font-family:Century Schoolbook;
+
+}
+#font3{
+	
+	font-size: 60px; 
+	color:#298A08;
+/*	color: rgba(85,107,47,0.7);*/
+	font-weight: bold; 
+	font-style: normal;
+	font-family: Vivaldi;
+	text-align: center;
+}
+#font1_1{
+	text-indent: 5em;
+	font-size: 40px; 
+	color: #3a7d97; 
+	font-weight: bold; 
+	font-style: normal;
+	font-family:AR DECODE;
+}
+#p2{
+	font-size:16px;
+	font-family: Agency FB, Helvetica, sans-serif ;
+	color: #3a7d97;
+	padding-left: 10px;
+	font-weight: bold; 
+	font-style: italic;
+}
+
+#p4{
+	font-size:18px;
+	font-family: Andalus, Helvetica, sans-serif ;
+	color:#2F4F4F;
+	
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~bible study~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+#BibleStudy_register span
+{
+	
+	color:red;	
+	font-size: 16px; 
+	font-weight: bold; 
+	font-style: normal;
+	font-family:Agency FB;
+	
+}
+#BibleStudy_register input:hover, select:hover, textarea:hover
+{
+	border: 1px solid green;
+	box-shadow: rgba(0, 0, 0, 0.8) 0px 0px 6px;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.8) 0px 0px 2px;
+	-moz-box-shadow: rgba(0, 0, 0, 0.8) 0px 0px 6px;
+	
+}
+#BibleStudy_register label{
+	
+	float: left;
+	text-align: right;
+	width: 180px;
+	color:#8B0000;
+	vertical-align: middle;
+	font-size: 16px; 
+	font-weight: bold; 
+	font-style: normal;
+	font-family:Agency FB;
+	padding-right: 5px;
+}
+
+.legend{
+	margin-left: 0px;
+	padding-left:15px;
+	padding-right:15px;
+	margin-top: 30px;
+	font-family:Agency FB;
+	font-size: 30px; 
+	 
+	font-weight: normal;
+	background-color:#DAF4F0;
+	border-radius:5px;
+	-webkit-border-radius:5px; 
+	-mos-border-radius:5px;
+	-ms-border-radius:5px;
+	
+}
+#legend5{
+	background-color:#79A888;
+	padding-left:10px;
+	padding-right:10px;
+	margin: 30px;
+	font-size: 30px;
+	color:#DAF4F0;
+	
+	border-radius:15px;
+	-webkit-border-radius:15px; 
+	-mos-border-radius:15px;
+	-ms-border-radius:15px;
+}
+input[type="submit"].Resizable
+{
+    width: auto;
+}
+
+input[type="text"], input[type="password"]
+{
+    width: 250px;
+    height: 25px;
+    border: solid 1px #707070;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+input[type="submit"]
+{
+    background-color: #f7f3f7;
+    border: solid 1px #707070;
+    padding: 0px 8px 0px 8px;
+    margin: 5px 0 5px 0;
+    font-size: 100%;
+    height: 1.6em;
+    width:70px;
+}
+p{
+	font-size:18px;
+	font-family:Century Schoolbook;
+	
+}
+#choir_registration_div{
+	
+	width: 680px;
+	height: 100%;
+	margin-left:auto;
+	margin-right:auto;
+
+}
+#ChoirRegisterSubmitDiv{
+	
+	margin-left:auto;
+	margin-right:auto;
+}
+#ChoirSubmit{
+	width:680px;
+	height: 40px;
+	font-size: 20px; 
+	font-family:Agency FB;
+	background-color: #79A888;
+	color:white;
+	border-radius: 7px;
+	-moz-border-radius: 7px;
+	-webkit-border-radius: 7px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	margin-left: 0px;
+	cursor:pointer;	
+	border: 0px solid black;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ bible study group~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+#BibleStudyViewtable{
+	width: 700px;
+	border: 0px solid black;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom: 20px;
+	/*background-color:#D9FDB8;*/
+	background-color: rgba(127, 253, 184, 0.2);
+	border-bottom: 2px solid #79A888;
+	border-collapse: collapse;
+}
+
+#B_S_tdTwo{
+	width: 200px;;
+	height: 100%;
+	border: 0px solid black;
+	padding-top:5px;
+	text-align: right;
+	font-size: 14px;
+	color: #a52a2a;
+	font-weight: bold;
+	padding-bottom: 0px;
+	vertical-align: top;
+	
+}
+#B_S_tr{
+	height: 30px;
+}
+#B_S_tdThree{
+	width: 500px;;
+	height: 100%;
+	border: 0px solid black;
+	text-align: left;
+	padding-left:20px;
+	font-size: 16px;
+	padding-bottom: 0px;
+	color: #3a350d;
+	font-weight: normal;
+}
+#BibleStudy_groupName{
+	font-size: 20px;
+	height:20px;
+	background-color:#3a7d97;
+	color:#ffffff;
+}
+
+
+#index_art_one{
+	box-shadow: -1px -1px 3px rgba(0,0,0,0.2);
+	background-color: rgba(152, 251, 152, 0.2);	
+	border: 0px solid black;
+	border-collapse: collapse;
+}
+#article_td{
+	padding-left: 5px;
+	padding-right: 5px;
+}
+/*---------------------------------------------image slide for javascript-------------------------------------------------*/
+
+#slider{
+	position: relative;
+	border: 4px solid black;
+	width: 732px;
+	height: 400px;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+#image img
+{
+	/*oberlays all the imgs*/
+	width: 732px;
+	height: 400px;
+	position:absolute;
+	top: 0;
+	left:0;
+	transition:1s;
+	visibility: hidden;
+}
+#Snav
+{
+	display:block;
+	width: 100%;
+	height: 100%;
+	position:absolute;
+	top: 0;
+	left:0;
+	
+}
+#SnavUp
+{
+	display:block;
+	width: 100%;
+	height: 20%;
+}
+#Scircles{
+	
+	display:block;
+	width: 25%;
+	height: 35%;
+	margin-right: 5%;
+	margin-top: 2%;
+	float: right;/* is going to be on the right side of the slider*/
+	
+}
+#Scircles ul
+{
+	margin: 0;
+	float: right;
+	display: block;
+	width: 100%;
+	height: 100%;
+	
+}
+#Scircles li
+{
+	list-style: none;
+	display: block;
+	background-color: rgba(0, 0, 0, 0.20);
+	width: 11%;
+	height: 100%;
+	margin-left: 5%;
+	float: left;
+	text-align: center;
+	color: green;
+	visibility: hidden;
+	/* create circle borders*/
+	
+	border-bottom-left-radius:25px;
+	border-top-left-radius:25px;
+	border-bottom-right-radius:25px;
+	border-top-right-radius:25px;
+}
+#SnavMiddle
+{
+	display: block;
+	width: 100%;
+	height: 10%;
+	margin-top: 15%;
+	
+}
+
+/* left button*/
+#Sleft
+{
+	width: 6%;
+	height: 100%;
+	float: left;
+	margin-left: 2%;
+	opacity:0.3;
+}
+/*button effect*/
+#Sleft:hover
+{
+	opacity:0.8;
+}
+
+/*right button*/
+#Sright
+{
+	width: 6%;
+	height: 100%;
+	float: right;
+	margin-right: 1%;
+	opacity:0.3;
+	
+}
+/*button effect*/
+#Sright:hover
+{
+	opacity:0.8;
+}
+
+#SnavBottom
+{
+	display: block;
+	background-color: rgba(0, 0, 0, 0.6);
+	width: 100%;
+	height: 10%;
+	position: absolute;
+	bottom:0;
+	left: 0;
+}
+
+#SnavBottom p
+{
+	font: normal 200% Arial;
+	color: #fff;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	margin-left: 3%;
+	visibility: hidden;	
+}

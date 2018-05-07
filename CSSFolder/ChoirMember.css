@@ -1,0 +1,607 @@
+@CHARSET "ISO-8859-1";
+
+#ChoirView_h2 {
+	text-decoration: none;
+	text-outline: 2px 2px #ff0000;
+	font-weight: bold;
+	font-family: Batang, Colonna MT, sans-serif;
+	color: #328532;
+	font-size: 22px;
+	margin-top: 5%;
+	margin-left: 16%;
+}
+#ChoirViewtable2 {
+	width: 435px;
+	border: 0px solid black;
+	border-collapse: collapse;
+	margin-left: auto;
+	margin-right: auto;
+}
+#ChoirViewtable1 {
+	width: 70%;
+	border: 0px solid black;
+	border-collapse: collapse;
+	margin-left: auto;
+	margin-right: auto;
+}
+#ChoirViewtable3 {
+	width: 70%;
+	border: 0px solid black;
+	margin-left: auto;
+	margin-right: auto;
+}
+#EditId{
+	width: 25%;
+	background-color: rgba(152, 251, 152, 0.5);	
+	text-align: center;
+	border-bottom:2px solid #8fbc8f;
+	border-left: 2px solid #8fbc8f;
+}
+#ResetID{
+	width: 50%;
+	background-color: rgba(152, 251, 152, 0.5);
+	text-align: center;
+	border-bottom:2px solid #8fbc8f;
+	border-left: 2px solid #8fbc8f;
+}
+#DelitID{
+	width: 25%;
+	background-color: rgba(152, 251, 152, 0.5);
+	text-align: center;
+	border-bottom:2px solid #8fbc8f;
+	border-left: 2px solid #8fbc8f;
+}
+#ViewtrOne{
+	background-color: rgba(152, 251, 152, 0.5);
+}
+#text1 {
+	height: 40px;
+}
+#tdTwo {
+	border: 1px solid black;
+	width: 350px;
+	padding-left: 20px;
+	height: 40px;
+}
+#tdThree {
+	border: 1px solid black;
+	width: 150px;;
+	text-align: center;
+	font-size: 14px;
+}
+#row1 {
+	text-decoration: none;
+	color:#000067;
+}
+#tdOne2 {
+	width: 45px;;
+	height: 40px;
+	border: 0px solid black;
+	text-align: center;
+	font-size: 18px;
+	color: #84BE6A;
+	font-weight: bold;
+}
+
+#tdTwo2 {
+	border: 0px solid black;
+	width: 300px;
+	padding-left: 10px;
+	font-size: 18px;
+	height: 40px;
+	color: #26466D;
+}
+
+#tdTwo3 {
+	border: 0px solid black;
+	width: 90px;
+	padding-left: 10px;
+	font-size: 18px;
+	height: 40px;
+	color: #26466D;
+}
+#row3 {
+	border: 0px solid #000;
+	text-decoration: none;
+	font-size: 14px;
+	color: #26466D;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 1px;
+	padding-top: 1px;
+	background-color: #c5ef9c; 
+	border-radius : 5px;
+	-webkit-border-radius: 5px;
+	-mos-border-radius: 5px;
+	-ms-border-radius: 5px;
+}	
+
+#row33{
+	text-decoration: none;
+	font-size: 16px;
+	color: #26466D;
+
+	background-color: #c5ef9c; 
+	padding: 2px 60px;
+	border-radius : 5px;
+	-webkit-border-radius: 5px;
+	-mos-border-radius: 5px;
+	-ms-border-radius: 5px;
+}
+
+#ViewText1 {
+	height: 40px;
+	color: #550000;
+	font-size: 20px;
+}
+
+#ViewtdTwo {
+	border: 0px solid black;
+	background-color: rgba(255, 255, 255, 0.3);
+	width: 600px;
+	padding-left: 20px;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	line-height: 1.7;
+}
+/*------------------------------------------- Choir mezmur view--------------------------------------------*/
+#MezmurViewtable {
+	width: 600px;
+	border: 0px solid black;
+	border-collapse: collapse;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+#MezmurtdOne{
+	width: 100px;;
+	height: 100%;
+	border: 0px solid black;
+	padding-top:5px;
+	text-align: right;
+	font-size: 20px;
+	color: #328532;
+	font-weight: bold;
+	padding-bottom: 30px;
+	vertical-align: top;
+	
+}
+#MezmurtdTwo{
+	width: 500px;;
+	height: 100%;
+	border: 0px solid black;
+	text-align: left;
+	padding-left:20px;
+	font-size: 23px;
+	padding-bottom: 30px;
+	color: #006699;
+	font-weight: bold;
+}
+
+#mezmurImageDiv{
+	width: 500px;
+	border: 0px solid black;
+	background-color: white;
+	margin-top:20px;
+	padding-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#mezmurImageDiv1{
+	width: 700px;
+	border: 0px solid black;
+	background-color: red;
+	margin-top:20px;
+	padding-top: 0px;
+	padding-bottom:0px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#Mezmur_pdf_form_div{
+	width: 700px;
+	
+	height:30px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#Mez_left{
+	background-color: rgba(220,24,25, 0.5);
+	cursor:pointer;
+	width: 30%;
+	height: 30px;
+	float: left;
+	margin-left: 1%;
+	
+	
+	
+}
+#Mez_right{
+	width: 30%;
+	cursor:pointer;
+	height: 30px;
+	float: right;
+	margin-right: 1%;
+	background-color: rgba(43,87,151, 0.5);
+	
+	
+	
+	
+}
+#Mez_image1{
+	margin: auro;
+}
+
+#mez_lebel1{
+	vertical-align: top;
+	padding-top: 20px;
+	padding-left: 20px;
+	color: white;
+	text-decoration: none;
+}
+#mez_lebel2{
+	vertical-align: top;
+	padding-top: 20px;
+	padding-left: 20px;
+	color: white;
+	text-decoration: none;
+}
+#Mezmur_namediv{
+	width: 700px;
+	text-align: center;
+	background-color: rgba(0, 0, 0, 0.1);
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 30px;
+	font-weight: bold;
+	font-style: italic;
+	color:#800000 ;
+	
+}
+#mezmurImageID{
+	width:100%;
+	height:100%;
+	border: 0px solid black;
+	vertical-align: middle;
+	box-shadow: 0px 0px 5px #9a9a9a;	
+}
+#mezmurImageP{
+	
+	text-align: center;
+	padding:0px;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~choir main page~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+.contentCell{
+	
+	
+	width: 80%;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	border: 0px solid black;
+	margin-top:30px;
+	margin-bottom: 30px;
+	line-height: 2.5;
+}
+.accordion h3{
+			background-color:#C1ECFA;
+			padding: 7px 15px;
+			margin-top:3px;
+			font: bold 120%/100% Arial, Helvetica, sans-serif;
+			border: solid 1px #c4c4c4;
+			
+			cursor: pointer;
+			text-align: center;
+			color: #000080;
+		
+}
+.accordion h3:hover {
+			background-color: #e3e2e2;
+			color:#800000 ;
+}
+
+.accordion h3.active {
+			background-position: right 5px;
+}
+.accordion ul {
+			background: #f7f7f7;
+			margin: 0;
+			display:none;
+			padding: 10px 15px 20px;
+			border-left: solid 2px #c4c4c4;
+			border-right: solid 2px #c4c4c4;
+			-webkit-border-bottom-left-radius:30px;
+			-webkit-border-bottom-right-radius:30px;
+			
+}
+#ChoirRuleLiID{
+	
+	margin-left: 60px;
+	
+}
+#ChoirNoticeLiID{
+	margin-left: 40px;
+	margin-right: 20px;
+	text-align: justify;
+	text-justify:inter-word;
+}
+
+#ChoirRuleLi_mainPoint_ID{
+	
+	margin-left: 5px;
+	list-style-type: none;
+	font-size: 25px;
+	font-weight: bold;
+	font-style: italic;
+	color:#800000 ;
+}
+#ChoirRule_mainPoint_inner_LiID{
+		margin-left: 60px;
+		font-weight:normal;
+		font-style: normal;
+		font-size: 18px;
+		color:black;
+			
+}
+#ChoirRule_iner_LiID{
+	padding-left: 80px;
+}
+#ChoirRule_two_LiID{
+	margin-left: 80px;
+	padding-top:20px;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+
+#ChoirRule_four_LiID{
+	margin-left: 60px;
+	
+}
+#ChoirRule_five_LiID{
+	margin-left: 40px;
+	
+}
+
+#ViewtdTwo label{	
+	float: left;
+	text-align: right;
+	width: 100px;
+	color:#a52a2a;	
+	font-size: 17px; 
+	font-weight: bold; 
+	font-style: normal;
+	font-family:Agency FB;
+	padding-right: 5px;
+}
+/*---------------------------------------important message table--------------------------*/
+
+#important_table{
+	width: 70%;
+	border-collapse:collapse;
+	background-color: rgba(0, 0, 0, 0.1);
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 25px;
+}
+#important_tr1{
+	background-color: rgba(199, 93, 77, 0.3);	
+	text-align: center;
+	color:#FF0000;
+}
+#important_td3{
+	padding-top:8px;
+}
+#important_td1{
+	width: 30%;
+	text-align: right;
+	padding-right: 20px;
+	padding-top: 10px;
+	vertical-align: top;
+	color:#a52a2a;
+/*	background-color: rgba(199, 93, 77, 0.3);
+	border-bottom: 1px solid #CC1100;*/
+}
+#important_td2{
+	width: 70%;
+	text-align: left;
+	padding-left: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	vertical-align: top;
+/*	background-color: rgba(199, 93, 77, 0.3);
+	border-bottom: 1px solid #CC1100;*/
+}
+
+#Choir_notice_div{
+	width: 600px;
+	background-color: rgba(255,255, 208, 0.9);
+	margin:20px auto;
+	padding:  20px 20px;
+	color:#646402;
+	text-shadow: -1px 0 #ffffff, 0 1px #ffffff, 1px 0 #ffffff, 0 -1px #ffffff;
+	height: 100%;
+	border: 1px solid #ca3203;
+	overflow: hidden;
+}
+#mastaw_div{
+	height: 50px;
+	position: relative;
+}
+#yemitenu{
+	width: 80%;
+	background-color: rgba(172, 211, 56, 0.1);	
+	margin-top:10px;
+	margin-left: auto;
+	
+	margin-right: auto;
+	height: 100%;
+}
+#yetetenu{
+	width: 80%;
+	background-color: rgba(172, 211, 56, 0.1);	
+	margin-top:10px;
+	margin-left: auto;	
+	margin-right: auto;
+	height: 100%;
+}
+#yetetenuMez{
+	text-align: center;
+	text-shadow: -1px 0 #ffffff, 0 1px #ffffff, 1px 0 #ffffff, 0 -1px #ffffff;
+	letter-spacing:5px;
+	padding-bottom: 20px;
+	padding-top: 0px;
+	font-size: 26px;
+	color: #6767ff;
+
+}
+
+#Yemitena_mezmur_table{
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	margin-bottom: 0px;
+	box-shadow: 0px 0px 5px #9a9a9a;	
+
+}
+
+#mittr1{
+	width: 100%;
+	margin-top: 10px;
+	position: relative;
+	
+	
+}
+#mittd3{
+	float: left;
+	width: 40%;
+	color: #26466D;
+	padding-left:40px;
+	font-size: 20px;
+	
+	
+}
+#mittd4{
+	float: right;
+	width: 45%;
+	color: #26466D;
+	padding-right:30px;
+	font-size: 20px;	
+	text-align: right;
+	
+	
+	
+}
+#mittr2{
+	width: 100%;	
+	
+}
+#mittr4{
+	width: 100%;
+	height: 40px;
+	background: linear-gradient(top, #c5ef9c 0%, #a9d97a  60%);
+	background: -moz-linear-gradient(top, #c5ef9c 0%, #a9d97a  60%);
+	background: -webkit-linear-gradient(top, #c5ef9c 0%, #a9d97a  60%);
+	background: -ms-linear-gradient(top, #c5ef9c 0%, #a9d97a  60%);
+	z-index:1;
+	
+}
+#mitlab1{
+	color: #9999fe;
+	padding-left:100px;
+	text-shadow: -1px 0 #ffffff, 0 1px #ffffff, 1px 0 #ffffff, 0 -1px #ffffff;
+	
+	
+}
+#mitlab2{
+	color:#9a3000;
+	padding-left:60px;
+}
+#mitlab3{
+	color:#9a3000;
+	padding-left:60px;
+}
+#mittr3{
+	width: 100%;	
+		
+}
+#Miz_h3{
+	text-align: center;
+	font-size: 20px;
+	color:white;	
+}
+/*
+#mittr label{
+	float: left;
+	text-align: right;
+	width: 150px;
+	color:#a52a2a;	
+	font-size: 17px; 
+	
+	font-style: normal;
+	
+	padding-right: 5px;
+} 
+#mittr span{		
+	font-size: 17px; 
+	
+	font-style: normal;
+	padding-left: 10px;
+	
+}
+*/
+#mittd3{
+	float: left;
+	width: 40%;
+	color: #26466D;
+	padding-left:40px;
+	font-size: 20px;
+	
+}
+#mittd4{
+	float: right;
+	width: 45%;
+	color: #26466D;
+	padding-right:30px;
+	font-size: 20px;
+	
+	text-align: right;
+	
+	
+}
+#mittd5{
+	float: right;
+	width: 45%;
+	color: #26466D;
+	padding-right:50px;
+	font-size: 20px;	
+	text-align: right;
+	
+}
+#mittd6{
+	text-decoration: none;
+	float: right;
+	color: #26466D;
+	font-size: 15px;	
+	text-align: left;
+	
+}
+#mittd7{
+	float: right;
+	text-decoration: none;
+	color: #26466D;
+	padding-right:50px;
+	font-size: 15px;	
+	text-align: right;
+	
+}
+#mittrImage{
+	
+width: 100%;
+height: 40px;
+background-color:red; 
+	
+}

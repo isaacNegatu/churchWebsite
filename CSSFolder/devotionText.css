@@ -1,0 +1,218 @@
+@CHARSET "ISO-8859-1";
+#divotion_main_text{
+	
+	width: 750px;
+	height: 100%;
+	
+	box-shadow: rgba(0, 0, 0, 0.8) 0px 0px 40px;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.8) 0px 0px 4px;
+	-moz-box-shadow: rgba(0, 0, 0, 0.8) 0px 0px 40px;
+	border-radius:20px;
+	-webkit-border-radius:20px; 
+	-moz-border-radius:20px;
+	-ms-border-radius:20px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:0px;
+	padding-bottom: 0px;
+	display:block;
+	vertical-align:middle;
+	clear: both;
+}
+#article_devotion{ padding-bottom: 20px;}
+#divotion_div1{
+	position: relative;	
+	box-shadow: #0B4C5F 0px 0px 2px;
+	-webkit-box-shadow: black 0px 0px 2px;
+	-moz-box-shadow: #0B4C5F 0px 0px 2px;
+	vertical-align: top;
+	width: 750px;
+	height: 130px;
+	padding-bottom: 0px;
+	-webkit-border-radius: 20px 20px 0px 0px;
+	-moz-border-radius: 20px 20px 0px 0px;
+	border-radius: 20px 20px 0px 0px;
+	background-color:#C1CDCD;
+	
+}
+#Devotion_font1{
+	font-size: 80px;
+	color: #556b2f;
+	font-family:Castellar;	
+	text-shadow: 1px 1px 5px rgba(240,255,240,0.7);
+	
+}
+#Devotion_font2{
+	font-size: 70px;
+	color: #556b2f;
+	font-family:Imprint MT Shadow;	
+	text-shadow: 1px 1px 5px rgba(240,255,240,0.7);	
+}
+#OurDailyBread{
+	
+	background:url(../Image/OurDailyBread1.JPG)no-repeat left top;
+	
+	width: 750px;
+	height: 130px;
+	float:left;
+	border:0px solid black;
+	vertical-align: top;
+	filter:alpha(opacity=30);
+	-moz-opacity:0.3;
+	-khtml-opacity:0.3;
+	opacity:0.3;
+	-webkit-border-radius: 20px 20px 0px 0px;
+	-moz-border-radius: 20px 20px 0px 0px;
+	border-radius: 20px 20px 0px 0px;
+	
+}
+#divotion_div{
+	position: absolute;
+	vertical-align: top;
+	width: 750px;
+	height: 100%;
+	text-align: center;
+	padding:0px;
+	padding-top:20px;
+	margin:0px;
+}
+#main_text_mini_wrap{
+	width:720px;
+	height:100%;
+	background-color:#FFF;
+	border:0px solid green;
+	padding-left:15px;
+	padding-right:15px;
+	padding-top:40px;
+	padding-bottom:20px;	
+	-webkit-border-radius: 0px 0px 20px 20px;
+	-moz-border-radius: 0px 0px 20px 20px;
+	-ms-border-radius: 0px 0px 20px 20px;
+	border-radius: 0px 0px 20px 20px;
+	
+}
+#font3_1{
+	
+	font-size: 40px; 
+	color: #800000; 
+	font-weight: bold; 
+	font-style: normal;
+	font-family: Castellar, Vivaldi;
+	text-shadow: -1px 0 #298A08, 0 1px #298A08, 1px 0 #298A08, 0 -1px #298A08;
+}
+#main_txt_mini_div{
+	width: 640px;
+	margin-bottom:20px;
+	margin-left: auto;
+	margin-right: auto;
+		
+}
+#font1{
+	text-indent: 5em;
+	font-size: 20px; 
+	color: #6666ff; 
+	font-weight: bold; 
+	font-style: normal;
+	font-family:AR DECODE;
+
+}
+#Amharic_pp1{
+		font-size: 35px;		
+		color: #3a7d97;
+		text-align: center; 
+		border-bottom: 0px double;
+		margin-bottom: 0px;
+		float: right;
+		padding-right: 20px;
+}
+#Amharic_pp2{
+	line-height: 1.2;
+	font-size: 20px;
+	width:620px;
+	padding: 10px;
+	color: #298A08;
+	font-weight: normal; 
+	font-style: italic;
+	border: 0px green solid;
+	box-shadow: green 0px 0px 10px;
+	-webkit-box-shadow: #65909A 0px 0px 10px;
+	-moz-box-shadow: green 0px 0px 10px;
+	text-align: center; 
+	border-radius:20px;
+	-webkit-border-radius: 20px; 
+	-mos-border-radius:20px;
+	-ms-border-radius:20px;
+}
+#pp1{
+	font-family: Felix Titling, Parchment, Colonna MT;
+	font-size: 20px;
+	color: #3a7d97;
+	float: right;
+	padding-right: 20px;
+	
+}
+#pp2{
+	line-height: 1.2;
+	font-family: Agency FB, Helvetica, sans-serif;
+	font-size: 20px;
+	width:620px;
+	padding: 10px;
+	color: #298A08;
+	text-align: center; 
+	font-weight: bold; 
+	font-style: italic;
+	border: 0px green solid;
+	box-shadow: green 0px 0px 10px;
+	-webkit-box-shadow: green 0px 0px 10px;
+	-moz-box-shadow: green 0px 0px 10px;
+	
+	border-radius:20px;
+	-webkit-border-radius: 20px; 
+	-mos-border-radius:20px;
+	-ms-border-radius:20px;
+}
+#p5{
+	
+	text-indent: 2em;
+	line-height: 1.7;
+	color:#2B3856;
+}
+#p1{
+	font-size:18px;
+	font-family: Andalus, Helvetica, sans-serif ;
+	text-indent: 2em;
+	line-height: 1.7;
+	color:#2B3856;
+}
+#buttonDiv{
+	height:40px;
+	
+	margin:30px 0px;
+	position: relative;	
+}
+#buttonTable{
+	width:100%;
+	
+	table-layout:fixed;
+	vertical-align: top;
+	
+}
+#buttonTable img {
+	height: 30px;
+	width: 150px;
+}
+#aleft{
+	float: left;
+	margin-left: 2%;
+	height:30px;
+	opacity:0.9;
+	text-decoration: none;
+	
+}
+#aright{
+	float: right;
+	margin-right: 2%;
+	height:30px;
+	opacity:0.9;
+	text-decoration: none;
+}

@@ -1,0 +1,188 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+
+article, aside, figure, footer, header, hgroup, menu, nav, section { 
+	display: block; }
+
+body{
+	width:100%;
+	height:100%;
+	background:url(../Image/green_bg1.png)no-repeat left top;
+/*	backgroud: url(../Image/green_bg1.png) repeat-x 0% 0% #DFDFDF;*/
+
+	font-family: Andalus, Helvetica, sans-serif ;
+	font-size:17px;
+	box-shadow: 0px 0px 40px #0B4C5F;	
+	
+	background-size: 100% 100%;
+	display:-webkit-box;
+	-webkit-box-pack: center;
+	-moz-box-pack: center;
+	-ms-box-pack: center;
+	
+	
+}
+#main_textOne{
+	vertical-align: top;
+	text-align:center;
+	padding-top: 100px;
+	background-color: white;
+}
+#prayer_table{
+	border: 0px solid red;
+	margin-left:auto;
+	margin-right:auto;
+	width:450px;
+	height:30px;
+	color:red;
+	border-radius:5px;
+	-webkit-border-radius:5px; 
+	-mos-border-radius:5px;
+	-ms-border-radius:5px;
+	box-shadow: red 0px 0px 12px;
+	-webkit-box-shadow: red 0px 0px 8px;
+	-moz-box-shadow: red 0px 0px 12px;
+	
+}
+#prayer_table1{
+	border: 1px solid #79973F;
+	margin-left:auto;
+	margin-right:auto;
+	width:450px;
+	height:30px;
+	color:red;
+	border-radius:5px;
+	-webkit-border-radius:5px; 
+	-mos-border-radius:5px;
+	-ms-border-radius:5px;
+	box-shadow: #79973F 0px 0px 8px;
+	-webkit-box-shadow: #79973F 0px 0px 8px;
+	-moz-box-shadow: #79973F 0px 0px 8px;
+	
+}
+#h6_one{
+	font-family:Agency FB;
+	font-size: 22px;	
+	color:red;
+	text-align: center;
+}
+#h6_two{
+	font-family:Agency FB;
+	font-size: 22px;	
+	color:#629632;
+	text-align: center;
+}
+#pip_p1{
+	
+	font-size: 60px;
+	font-weight: bold; 
+	font-style: normal;
+	font-family:Castellar;	
+	color: #550000;  
+}
+#pip_p2{
+	
+	font-size: 30px;
+	font-style: normal;
+	font-family:Verdana;	
+	color: #550000;  
+}
+#main_wrapper{
+	
+	max-width:1100px;
+	min-width:1100px;
+	margin-top: 20px;
+	margin-bottom: 0px;
+	padding-top:20px;
+	padding-bottom:10px;
+	display:-webkit-box;
+	-webkit-box-orient:vertical;
+	-webkit-box-flex:1;
+	margin: 0 auto;
+	
+		
+}
+#sec_asi_div{
+	border-bottom: 3px green solid; 
+	display:-webkit-box;
+	-webkit-box-orient:horizontal;
+	
+	margin-top: 4px;
+	border-radius:5px;
+	-webkit-border-radius: 5px; 
+	-moz-border-radius:5px;
+	-ms-border-radius:5px;
+}
+#main_section{
+	border-bottom:2px solid green;
+	border:0px solid blue;
+	-webkit-box-flex:1;	
+	margin-bottom:3px;
+	padding-left: 0px;
+	padding-right: 0px;
+
+	box-shadow: 0px 0px 1px #0B4C5F;
+	border-radius:5px;
+	-webkit-border-radius: 5px; 
+	-moz-border-radius:5px;
+	-ms-border-radius:5px;
+}
+#main_text{
+	border:0px;
+	width:810px;
+	/*min-height:1000px;*/
+	vertical-align: top;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color:#ffffff;
+/*	background-color: rgba(240, 255, 240, 0.80);
+	display:block;
+	vertical-align:middle;
+	clear: both;*/
+	
+	border-radius:5px;
+	-webkit-border-radius: 5px; 
+	-moz-border-radius:5px;
+	-ms-border-radius:5px;
+}
+
+
+/*-------------------------------------------------------Shared id's----------------------------------*/
+
+#Choir_nav_wrap {
+	text-align: left;
+	margin:auto;
+	float: right;
+	width: 800px;
+	height: 40px;
+	font-size: 17px;
+	
+}
+#Choir_nav_menue {
+	float: right;
+	height: 40px;
+	padding-right:30px;
+	width: 410px;
+	font-family: Baskerville Old Face, cursive;
+	text-align: right;
+	vertical-align: center;
+}
+#row2 {
+	float: right;
+	text-align: center;
+	text-decoration: none;
+	width: 100px;
+	border: 1px solid #000;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	height: 20px;
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-mos-border-radius: 10px;
+	-ms-border-radius: 10px;
+	background: #E8F1D4;
+}
